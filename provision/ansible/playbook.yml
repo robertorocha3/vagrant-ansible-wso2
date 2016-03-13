@@ -1,0 +1,11 @@
+---
+
+- hosts: localhost
+  sudo: yes
+  roles:
+   - williamyeh.oracle-java
+
+  vars:
+    java_version: 7
+    java_subversion: 80
+
